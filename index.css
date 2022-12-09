@@ -24,8 +24,8 @@ img {
 
 
 body{
-    width: 100vw;
-    max-width: 95%;
+    width: 100%;
+
     font-family: 'Roboto', sans-serif;
     background: #1E1E1E;
 
@@ -36,7 +36,9 @@ body{
     display: flex;
     justify-content:space-between;
     width: 1220px;
-    margin: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 115px;
 
 
 
@@ -56,6 +58,7 @@ body{
 .header-links-group{
     display: flex;
 
+
 }
 
 
@@ -65,4 +68,34 @@ body{
     width: 30px;
     height: 30px;
 }
+
+.main-image{
+    width: 847px;
+    height: 228px;
+}
 /*Main*/
+
+.main-wrapper{
+    padding-left: 50px;
+    color: white;
+    border: white solid;
+}
+
+.main-title{
+    font-family: "Josefin Sans", sans-serif ;
+    line-height: 128px;
+    font-size: 128px;
+    font-weight: 400;
+}
+
+.main-second-title{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    padding-right: 228px;
+    padding-top: 30px;
+}
+
+.main-description{
+    padding-left: 60px;
+}
