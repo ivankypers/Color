@@ -76,6 +76,7 @@ body{
 /*Main*/
 
 .main-wrapper{
+    display: flex;
     padding-left: 50px;
     color: white;
     border: white solid;
