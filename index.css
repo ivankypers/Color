@@ -105,10 +105,9 @@ body{
 
 .main-second-title{
     margin-left: 500px;
-
     width: 266px;
     height: 370px;
-    padding-bottom: 50px;
+    padding: 5px 5px 50px;
 
 }
 
@@ -135,7 +134,7 @@ body{
     margin-right: 1150px;
     margin-bottom: 60px;
 }
-.stike{
+.strike{
     width: 139px;
     height: 0;
 

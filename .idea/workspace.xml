@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dda7dee4-f012-44b5-8b68-0e01295c12f4" name="Changes" comment="" />
+    <list default="true" id="dda7dee4-f012-44b5-8b68-0e01295c12f4" name="Changes" comment=" Added description and changed structure. (Cringe name of my classes)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +52,7 @@
       <workItem from="1670588916250" duration="12214000" />
       <workItem from="1670610072347" duration="612000" />
       <workItem from="1670685660380" duration="5029000" />
+      <workItem from="1670699271757" duration="769000" />
     </task>
     <task id="LOCAL-00001" summary="added some css for header">
       <created>1670596200367</created>
