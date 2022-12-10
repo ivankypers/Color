@@ -24,10 +24,10 @@ img {
 
 
 body{
-    width: 100vw;
-    max-width: 95%;
+    width: 100%;
+
     font-family: 'Roboto', sans-serif;
-    background: #1E1E1E;
+    background: black;
 
 }
 
@@ -36,7 +36,10 @@ body{
     display: flex;
     justify-content:space-between;
     width: 1220px;
-    margin: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 115px;
+
 
 
 
@@ -50,6 +53,7 @@ body{
     text-decoration: none;
     display:inline-block;
     padding: 10px;
+    text-align: right;
 
 }
 
@@ -58,11 +62,107 @@ body{
 
 }
 
+.link-position{
+    margin-right: 650px;
+}
 
+.link-position-second{
+    margin-right: -245px;
+}
 
 /*Image*/
 .header-image{
     width: 30px;
     height: 30px;
 }
+
+.main-image{
+    width: 847px;
+    height: 228px;
+    position:absolute;
+    left:150px;
+    top:330px;
+
+}
 /*Main*/
+
+.main-wrapper{
+    display: flex;
+    margin-left: 100px;
+    padding-left: 50px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.main-title{
+    margin-left: 50px;
+    font-family: "Josefin Sans", sans-serif ;
+    line-height: 128px;
+    font-size: 228px;
+    font-weight: 400;
+    color: white;
+}
+
+.main-second-title{
+    margin-left: 500px;
+
+    width: 266px;
+    height: 370px;
+    padding-bottom: 50px;
+
+}
+
+.title-p{
+    border-bottom: white solid;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-bottom: 43px;
+
+}
+
+.main-description{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.main-strikes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    margin-left: 150px ;
+    margin-right: 1150px;
+    margin-bottom: 60px;
+}
+.stike{
+    width: 139px;
+    height: 0;
+
+    border: white solid;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+/*END*/
+.end-wrapper{
+    display: flex;
+    margin: 30px auto;
+    padding-left: 150px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+}
+.end-description{
+    width: 847px;
+    height: 63px;
+
+}
+.end-price{
+    margin-top: -27px;
+    margin-left: 255px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 150%;
+}
