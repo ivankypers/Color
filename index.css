@@ -27,7 +27,7 @@ body{
     width: 100%;
 
     font-family: 'Roboto', sans-serif;
-    background: #1E1E1E;
+    background: black;
 
 }
 
@@ -42,6 +42,7 @@ body{
 
 
 
+
 }
 
 .header-link{
@@ -52,16 +53,22 @@ body{
     text-decoration: none;
     display:inline-block;
     padding: 10px;
+    text-align: right;
 
 }
 
 .header-links-group{
     display: flex;
 
-
 }
 
+.link-position{
+    margin-right: 650px;
+}
 
+.link-position-second{
+    margin-right: -245px;
+}
 
 /*Image*/
 .header-image{
@@ -72,31 +79,72 @@ body{
 .main-image{
     width: 847px;
     height: 228px;
+    position:absolute;
+    left:150px;
+    top:310px;
+
 }
 /*Main*/
 
 .main-wrapper{
     display: flex;
+    margin-left: 100px;
     padding-left: 50px;
     color: white;
-    border: white solid;
+    margin-bottom: 70px;
 }
 
 .main-title{
+    margin-left: 50px;
     font-family: "Josefin Sans", sans-serif ;
     line-height: 128px;
-    font-size: 128px;
+    font-size: 228px;
     font-weight: 400;
+    color: white;
 }
 
 .main-second-title{
+    margin-left: 500px;
+
+    width: 266px;
+    height: 370px;
+    padding-bottom: 50px;
+
+}
+
+.title-p{
+    border-bottom: white solid;
     font-size: 30px;
     font-weight: 500;
     line-height: 35px;
-    padding-right: 228px;
-    padding-top: 30px;
+    margin-bottom: 43px;
+
 }
 
 .main-description{
-    padding-left: 60px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+/*END*/
+.end-wrapper{
+    display: flex;
+    margin: 30px auto;
+    padding-left: 150px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+}
+.end-description{
+    width: 847px;
+    height: 63px;
+
+}
+.main-price{
+    margin-left: 255px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 150%;
 }
