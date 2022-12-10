@@ -81,7 +81,7 @@ body{
     height: 228px;
     position:absolute;
     left:150px;
-    top:310px;
+    top:330px;
 
 }
 /*Main*/
@@ -127,6 +127,23 @@ body{
     line-height: 150%;
 }
 
+.main-strikes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    margin-left: 150px ;
+    margin-right: 1150px;
+    margin-bottom: 60px;
+}
+.stike{
+    width: 139px;
+    height: 0;
+
+    border: white solid;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
 /*END*/
 .end-wrapper{
     display: flex;
@@ -142,7 +159,8 @@ body{
     height: 63px;
 
 }
-.main-price{
+.end-price{
+    margin-top: -27px;
     margin-left: 255px;
     font-weight: 400;
     font-size: 70px;
